@@ -4,7 +4,8 @@
   "description": "Simple API backend for CTP lecture.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "node app.js --openssl-legacy-provider build"
   },
   "author": "Edgardo Molina",
   "license": "ISC",
